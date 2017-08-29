@@ -1,0 +1,18 @@
+#cr{
+    width: 60px;
+    height:40px;
+    background: black;
+    color: white;
+    text-align: center
+}
+table,th,td{
+    border:0px solid green;
+    border-collapse: collapse;
+}
+div{
+    width: 100px;
+    height:20px;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 20px
+}
