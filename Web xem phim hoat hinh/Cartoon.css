@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+
+#main{
+    width: 1010px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 66px;
+    background-color: #F5F5F5;
+    margin-bottom:5px;
+    padding: 5px;
+}
+#head-link{
+    height: 30px;
+    line-height: 30px;/*độ giãn các dòng nội dung*/
+    padding-left: 450px;
+    padding-bottom: 25px;
+    background-color: #F5F5F5;
+    margin-bottom:5px;
+    clear: both;
+    font-size: medium;
+
+}
+#left{
+    width: 328px;
+    min-height: 400px;
+    float:left;
+    background-color: #F5F5F5;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+#content{
+    width: 610px;
+    min-height: 390px;
+    float:right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left: 48px;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+
+#footer{
+    height: 50px;
+    clear: both;
+    background-color: #F8F8FF;
+    padding-top: 25px;
+}
+a:link {
+    text-decoration: none;
+}
