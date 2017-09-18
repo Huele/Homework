@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+#none{
+    height: 150px;
+}
+input[type=text] {
+    width: 40%;
+    padding: 15px 20px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+
+}
+input[type=button] {
+    width: 150px;
+    padding: 8px 8px;
+    margin: 10px 5px;
+    background-color:#3CBC8D;
+    color: white;
+    border: none;
+    cursor: pointer; /*xuat hien tro tay*/
+}
