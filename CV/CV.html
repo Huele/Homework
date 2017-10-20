@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title> my CV</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My CV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="CV.css">
 </head>
 <body>
-<img src="image\hue.png" alt="profile picture" style="float:right;width:114px;height:140px;">
+<div id="cv" style="width: 80%; background-color: #6DBCDB">
+<div class="row">
+    <div class="col-sm-3">
+     <img  id="picture" src="image\hue.png" alt="profile picture" style="float:right;width:114px;height:140px;">
+    </div>
+     <div class="col-sm-9">
 <h1>Le Thi Hong Hue</h1>
-<p><i class="fa fa-home"></i>  Address: Dong Da, Ha Noi</p>
-<p><i class="fa fa-phone"></i>Tel: 0123456789</p>
-<p><i class="fa fa-envelope"></i>Emai: lethihonghue@gmail.com</p>
-<h2>Work experience</h2>
+<p><span class="glyphicon glyphicon-home"></span>  &#160; Address: Dong Da, Ha Noi</p>
+<p><span class="glyphicon glyphicon-earphone"></span> &#160; Tel: 0123456789</p>
+<p><span class="glyphicon glyphicon-envelope"></span> &#160; Emai: lethihonghue@gmail.com</p>
+    </div>
+</div>
+    <div class="container-fluid">
+<h3>Work experience</h3>
 <table>
     <tr>
         <td width="200px"><b>01/2015-12/2015</b></td>
@@ -50,9 +60,14 @@
         </td>
     </tr>
 </table>
-    <h2>Education</h2>
+    <h3>Education</h3>
 <p id="para1">Bachelor of Banking and Finance</p>
-<p id="para1">National Economics University </p>
-
+<p id="para1">National Economics University
+    <h3>Skills</h3>
+     <p id="para1">English</p>
+     <p id="para1">Microsoft Office </p>
+      <p id="para1">Presentation</p>
+      <p id="para1">Communication </p>
+</div>
 </body>
 </html>
